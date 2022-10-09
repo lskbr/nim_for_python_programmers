@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "translation"
+version = "0.1.0"
+description = ""
+authors = ["Nilo Menezes <nilo@crowdspring.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+polib = "^1.1.1"
+boto3 = "^1.24.85"
+mdpo = "^1.0.3"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
